@@ -558,6 +558,20 @@
                         3. Procure e selecione a <strong>foto ou o PDF</strong> do seu comprovante (seja do PIX ou do Cartão)<br>
                         4. Depois, clique no botão <strong>“Finalizar Inscrição”</strong> para concluir o envio
     </p>
+                    <div style="margin: 24px auto 12px auto; max-width: 400px; text-align: center;">
+                        <label for="comprovante" style="
+                                display: inline-block;
+                                padding: 10px 18px;
+                                background-color: #f6b93b;
+                                color: white;
+                                font-weight: bold;
+                                border-radius: 6px;
+                                cursor: pointer;
+                                font-size: 1rem;
+                                box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+                        ">
+                            📎 Escolher comprovante
+                        </label>
                     <div style="margin: 24px auto 12px auto; max-width: 400px;">
                         <input
                             type="file"
@@ -566,17 +580,9 @@
                             accept=".jpg,.jpeg,.png,.pdf"
                             required
                             aria-label="Comprovante de pagamento"
-                            style="
-                              font-size: 1rem;
-                              padding: 8px;
-                              width: 100%;
-                              border: 1px solid #ccc;
-                              border-radius: 5px;
-                              background-color: #fff;
-                              color: #333;
-                              display: block;
-                            "
-                        >
+                            style="display: none;"
+                           >
+                    </div>
                         <div class="file-types">
                             Formatos suportados: 
                             <span class="file-type-badge"><i class="fas fa-check file-type-icon"></i> .jpg / .jpeg</span>
