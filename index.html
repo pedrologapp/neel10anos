@@ -554,18 +554,25 @@
                     <div class="proof-upload">
                         <label for="comprovante">Comprovante de Pagamento*</label>
                         <input type="file" id="comprovante" name="comprovante" accept=".jpg,.jpeg,.png,.pdf" required>
-                        <p>Faça upload do seu comprovante de pagamento (PIX ou Cartão)</p>
+                        
+                        <p><strong>Como enviar seu comprovante:</strong><br>
+                        1. Clique em <strong>“Escolher arquivo”</strong><br>
+                        2. Localize a foto ou PDF do seu comprovante (PIX ou Cartão)<br>
+                        3. Selecione o arquivo para anexar<br>
+                        4. Depois, clique em <strong>“Finalizar Inscrição”</strong></p>
+                    
                         <div class="file-types">
                             Formatos suportados: 
                             <span class="file-type-badge"><i class="fas fa-check file-type-icon"></i> .jpg / .jpeg</span>
                             <span class="file-type-badge"><i class="fas fa-check file-type-icon"></i> .png</span>
                             <span class="file-type-badge"><i class="fas fa-check file-type-icon"></i> .pdf</span>
                         </div>
+                    
                         <div class="error-message" id="comprovante-error">Por favor, anexe o comprovante de pagamento.</div>
                     </div>
                     
                     <button type="submit" class="submit-btn" id="finalizar-btn" disabled>FINALIZAR INSCRIÇÃO</button>
-                    <p id="upload-message" class="upload-hint">Por favor, faça o upload do comprovante para habilitar a inscrição</p>
+                    <p id="upload-message" class="upload-hint">Por favor, envie o comprovante para concluir sua inscrição.</p>
                     
                     <div id="form-messages"></div>
                 </form>
